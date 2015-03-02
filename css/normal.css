@@ -1,0 +1,64 @@
+div.bar {
+    display: inline-block;
+    width: 20px;
+    height: 75px;
+    background-color: teal;
+    margin-right: 2px;
+}
+svg.FirstBarChart {
+    position: absolute;
+    z-index: 1;
+}
+svg.FirstScatterPlot {
+    top: 110px;
+    position: absolute;
+    z-index: 2;
+}
+
+svg.FirstScatterPlot text {
+    font-family: san-serif;
+    font-size: 11px;
+    fill: red;
+}
+/* Chapter 7*/
+svg.thirdScatterPlot {
+    top: 230px;
+    position: absolute;
+    z-index: 2;
+}
+
+svg.thirdScatterPlot {
+    fill: blue;
+}
+
+svg.thirdScatterPlot text {
+    font-family: san-serif;
+    font-size: 11px;
+    fill: blue;
+}
+svg.thirdScatterPlot g.axis path,
+svg.thirdScatterPlot g.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+svg.thirdScatterPlot g.axis text {
+    font-family: san-serif;
+    font-size: 11px;
+    fill: black;
+}
+
+svg.barChart4 {
+    position: absolute;
+    z-index: 4;
+    top: 670px;
+}
+.barChart4 rect.bar4 {
+    display: inline-block;
+    width: 20px;
+    height: 75px;
+    background-color: teal;
+    margin-right: 2px;
+}
+
+.barChart4
